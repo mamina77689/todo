@@ -56,3 +56,4 @@ function list() {
 }
 const button = document.getElementById("button");
 button.onclick = list;
+console.log("asd");
