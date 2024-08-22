@@ -1,0 +1,94 @@
+#button {
+  background-color: rgb(22, 23, 73);
+  color: aliceblue;
+  border: 2px solid rgba(10, 0, 0, 0.241);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+body {
+  background-color: rgb(22, 35, 83);
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white {
+  background-color: rgb(255, 255, 255);
+  width: 50vw;
+  height: 40vw;
+  border: 2px solid rgb(0, 30, 255);
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: sticky;
+  overflow: scroll;
+}
+
+.style {
+  color: aliceblue;
+  background-color: rgb(25, 13, 70);
+  border: 2px solid rgba(10, 0, 0, 0.241);
+  border-radius: 3px;
+  padding: 3px;
+  width: 400px;
+  height: fit-content;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.delete {
+  background-color: rgb(16, 3, 85);
+  width: 19px;
+  height: 19px;
+  border: 2px solid rgba(10, 0, 0, 0.241);
+  border-radius: 3px;
+  padding: 3px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url(bin.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title {
+  color: rgb(17, 17, 78);
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  font-size: 100px;
+  font-weight: 400px;
+}
+.edit {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgba(10, 0, 0, 0.241);
+  border-radius: 3px;
+  padding: 3px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.done {
+  background-color: rgb(5, 0, 80);
+  border: 2px solid rgba(10, 0, 0, 0.241);
+  border-radius: 3px;
+  padding: 3px;
+
+  color: white;
+}
+input {
+  height: 40px;
+  border: 50%;
+  border-radius: 10px;
+  width: 400px;
+}
+.text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
